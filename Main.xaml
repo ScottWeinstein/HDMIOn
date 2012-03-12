@@ -1,0 +1,9 @@
+﻿<Window x:Class="HDMIOn.Main"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="HDMI On" Height="300" Width="300" KeyDown="_keyDown">
+    <Grid>
+        <TextBlock Text="HDMI ON" Margin="52,12,40,0" FontSize="24" Height="39" VerticalAlignment="Top" />
+        <TextBlock Text="{Binding RefreshTimeLeft}" FontSize="16" Height="39" VerticalAlignment="Bottom" />
+    </Grid>
+</Window>
